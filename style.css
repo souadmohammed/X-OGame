@@ -1,0 +1,133 @@
+#test{
+    color: blue;
+}
+
+#red{
+    color: rgb(0, 183, 255);
+    font-size: 15px;
+}
+
+#board{
+
+    display: grid;
+    /* grid-template-columns: 100px 100px 100px ; */
+    grid-template-columns: repeat(3,1fr) ;
+    /* fraction */
+    /* توسط القايد */
+    justify-content: center;
+    border:gold;
+}
+
+#all{
+
+    display: grid;
+    justify-content:center;
+    text-align: center;
+}
+
+.cell{
+    width: 130px;
+    height: 130px;
+    border: solid #ffffffa1 2px;
+    text-align: center;
+    font-size: 80px;
+    border-style:double;
+    border-color: rgba(245, 218, 10, 0.762);
+    background-color:rgba(255, 228, 196, 0.413);
+
+}
+
+#turn1{
+    margin-bottom: 50px;
+}
+
+#parWinner{
+    /* background-color: rgb(0 188 212 / 75%); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: yellow ;
+    font-size: 40px;
+    font-family: monospace;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+
+
+}
+
+#winner{
+    margin-top: 70px;
+    height:"90px";
+     width:"90px"
+}
+#parTurn{
+    color: yellow;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+#restart{
+    height: 40px;
+    /* background-color: #ffff00b8; */
+    font-family: monospace;
+    font-size: xx-large;
+    color: rgb(247, 200, 16);
+}
+
+body{
+    background-image: url(https://d1fs8ljxwyzba6.cloudfront.net/assets/article/2020/09/25/among-us-character-creator_feature.jpg);
+    background-position: top;
+
+}
+
+#cell_0{
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+#cell_1{
+    border-top-width: 0px;
+    border-right-width: 0px;
+    
+}
+
+#cell_2{
+    border-top-width: 0px;
+    border-right-width: 0px;
+
+}
+
+#cell_3{
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+#cell_4{
+    border-right-width: 0px;
+    
+
+}
+
+#cell_5{
+    border-right-width: 0px;
+    
+
+}
+
+#cell_6{
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+#cell_7{
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+}
+
+#cell_8{
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+
+}
